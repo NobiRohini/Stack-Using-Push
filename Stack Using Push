@@ -1,0 +1,41 @@
+#include<stdio.h>
+void push()
+{
+	int a,max,x,top;
+	if(top==max-1)
+	printf("stack overflow");
+	else
+	printf("enter the element to insert");
+	scanf("%d",&x);
+	top=top+1;
+	a[top
+	 ]=x;
+	printf("%d element inserted successfully",x);
+}
+void pop()
+{
+	int x,a,temp,top;
+	if (top==-1)
+	printf("stack underflow");
+	else
+	temp=a[top];
+	top--;
+	printf("%d deletion successfully",x);
+}
+int main()
+{
+    int n;
+	printf("\n 1. push");
+	printf("\n 2. pop");
+	printf("enter your choice");
+	switch(n)
+	{
+		case 1:
+			push();
+			break;
+			case 2:
+				pop();
+				break;
+	}
+	
+}
